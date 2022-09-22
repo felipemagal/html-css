@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidadas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente é igual a 1em
+
+            A W3C RECOMENDA USAR AS MEDIDAS DE FONTE PX e EM 
+            */
+            font-size: 1em;
+           
+        }
+        h1{
+            /* shorthand font - seguir a ordem abaixo para criar apenas uma linha de edição
+            - font-style -> font-weight -> font-size -> font-family
+            
+            A shorthand substitui as linhas abaixo de edição de fonte
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder
+            font-size: 3em
+            font-style: italic*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, quaerat praesentium distinctio libero ipsa doloremque a, illo eos architecto minus reiciendis placeat quas eaque nam tempora provident ab ipsum officia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quod aliquid? Tempore omnis eius illum quis harum ut blanditiis consectetur, in maiores labore quaerat doloremque dolores voluptates reprehenderit. Maiores, tempora.</P>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam nihil animi cum rerum iusto vel eius iure fugiat, consequuntur blanditiis ex voluptates optio aut hic exercitationem. Magni, culpa dolores?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni animi voluptas ducimus tempore alias incidunt vitae autem numquam, dignissimos nesciunt cumque aliquam natus veniam quo porro, molestias soluta beatae minima.</p>
+</body>
+</html>

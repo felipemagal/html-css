@@ -1,0 +1,28 @@
+@charset "UTF-8"
+
+*{
+    font-family: Arial, Helvetica, sans-serif; /* esse parâmetro não funcionou. Coloquei no parâmetro 'main' abaixo*/
+}
+body {
+    background-image: linear-gradient(to right, #1D8B99, #43D3E6);
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #944e1977;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #9E826D;
+    text-align: center;
+    text-shadow: 1px 1px 2px #4b3e349d;
+}
+h2 {
+    color:#E67A27 ;
+}
+p {
+    text-align: justify;
+}
