@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulário 2</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post"></form>
+    <p>
+        <label for="iusu">Usuário:</label>
+        <input type="text" name="usu" id="iusu" required minlength="5" maxlength="6" placeholder="nome do usuário">
+    </p>
+    <p>
+        <label for="isen">Senha:</label>
+        <input type="password" name="sen" id="isen" required minlength="8" maxlength="20"> 
+    </p>
+    <!-- minlength é a quantidade mínima de caracteres para preencher um formulário e maxlength é o máximo que se permite no formulário -->
+    <p>
+        <input type="submit" value="Enviar"> 
+        <input type="reset" value="Limpar">
+    </p>
+</body>
+</html>
